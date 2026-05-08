@@ -1,0 +1,81 @@
+DANH SÁCH CHI TIẾT CÁC CHỨC NĂNG WEBSITE DU LỊCH
+
+I. PHÂN HỆ DÀNH CHO KHÁCH HÀNG (FRONTEND)
+[ ] 1. Trang chủ (Homepage):
+[ ]    - Thanh tìm kiếm tour (Điểm đến, ngày đi, loại hình).
+[ ]    - Banner các tour khuyến mãi, tour hot.
+[ ]    - Danh sách tour tiêu biểu, tour mới nhất.
+[ ]    - Khối tin tức/blog du lịch.
+[ ]    - Chân trang (Footer) chứa thông tin liên hệ, mạng xã hội, chứng nhận.
+
+[ ] 2. Chức năng Tìm kiếm & Lọc (Search & Filter):
+[ ]    - Tìm kiếm theo từ khóa.
+[ ]    - Lọc tour theo giá (Thấp -> Cao, Cao -> Thấp).
+[ ]    - Lọc theo thời gian (Số ngày, số đêm).
+[ ]    - Lọc theo xếp hạng sao của khách sạn hoặc đánh giá tour.
+[ ]    - Lọc theo loại hình (Tour ghép, tour riêng, du thuyền, v.v.).
+
+[ ] 3. Trang chi tiết Tour:
+[ ]    - Thư viện ảnh/video tour.
+[ ]    - Mô tả tổng quan tour.
+[ ]    - Lịch trình chi tiết từng ngày (Itinerary).
+[ ]    - Danh sách bao gồm & Không bao gồm dịch vụ.
+[ ]    - Chính sách đặt tour và hoàn hủy.
+[ ]    - Bản đồ Google Maps chỉ đường.
+[ ]    - Đánh giá và bình luận từ khách hàng đã tham gia.
+
+[ ] 4. Hệ thống Đặt tour (Booking Engine):
+[ ]    - Chọn ngày khởi hành từ lịch (Calendar).
+[ ]    - Chọn số lượng khách (Người lớn, trẻ em, em bé).
+[ ]    - Tự động tính giá theo số lượng và loại khách.
+[ ]    - Form điền thông tin cá nhân/liên hệ.
+[ ]    - Tích hợp cổng thanh toán (VNPay, MoMo, Visa/MasterCard, Chuyển khoản).
+[ ]    - Gửi email xác nhận đặt tour tự động.
+
+[ ] 5. Tài khoản người dùng (User Account):
+[ ]    - Đăng ký/Đăng nhập (Hỗ trợ qua Social: Google, Facebook).
+[ ]    - Quản lý thông tin cá nhân.
+[ ]    - Quản lý lịch sử đặt tour và trạng thái thanh toán.
+[ ]    - Danh sách tour yêu thích (Wishlist).
+
+[ ] 6. Blog & Cẩm nang du lịch:
+[ ]    - Danh mục bài viết (Kinh nghiệm, ẩm thực, điểm đến).
+[ ]    - Chức năng bình luận, chia sẻ bài viết.
+
+II. PHÂN HỆ QUẢN TRỊ (BACKEND/ADMIN)
+[x] 1. Dashboard:
+[ ]    - Thống kê doanh thu theo thời gian.
+[ ]    - Thống kê số lượng tour đã đặt, số khách hàng mới.
+[ ]    - Biểu đồ tăng trưởng.
+
+[ ] 2. Quản lý Tour & Sản phẩm:
+[ ]    - Thêm, sửa, xóa thông tin tour.
+[ ]    - Quản lý danh mục tour, địa danh (Tỉnh thành, quốc gia).
+[ ]    - Quản lý lịch khởi hành và giá theo từng ngày.
+
+[ ] 3. Quản lý Đơn hàng (Booking Management):
+[ ]    - Tiếp nhận, xác nhận hoặc hủy đơn hàng.
+[ ]    - Quản lý trạng thái thanh toán.
+[ ]    - Xuất danh sách khách hàng đi tour (File Excel).
+
+[ ] 4. Quản lý Khách hàng (CRM):
+[ ]    - Lưu trữ danh sách khách hàng.
+[ ]    - Xem lịch sử giao dịch của từng khách.
+
+[ ] 5. Quản lý Nội dung (CMS):
+[ ]    - Quản lý bài viết blog.
+[ ]    - Quản lý trang tĩnh (Giới thiệu, Liên hệ, Chính sách bảo mật).
+[ ]    - Quản lý Banner, slide ảnh.
+
+[ ] 6. Quản lý Khuyến mãi & Marketing:
+[ ]    - Tạo mã giảm giá (Coupon).
+[ ]    - Thiết lập các chương trình ưu đãi (Giảm giá trực tiếp).
+[ ]    - Tích hợp đăng ký nhận bản tin (Newsletter).
+
+III. CÁC TÍNH NĂNG KỸ THUẬT & NÂNG CAO
+[ ] - Tương thích di động (Responsive Design).
+[ ] - Đa ngôn ngữ (Tiếng Việt, Tiếng Anh...).
+[ ] - Đa tiền tệ (VND, USD...).
+[ ] - Tối ưu SEO (Meta tags, URL thân thiện, Sitemap).
+[ ] - Hỗ trợ trực tuyến (Live chat, Zalo, Messenger).
+[ ] - Tích hợp đánh giá Trustpilot hoặc TripAdvisor.

@@ -1,0 +1,61 @@
+C:\xampp\htdocs\travel_web\
+├── index.php
+├── site.php
+├── config.php
+├── admin\
+│      ├── skill\
+│        └── view_tour.css
+│        └── delete_tour.css
+│        └── edit_tour.css
+│   └── booking.php
+│   └── dashboard.php
+│   └── dashboard_content.php
+│   └── tour_detail.php
+│   └── list_tour.php
+├── css\
+│      ├── admin\
+│        └── add_tour.css
+│        └── board.css
+│        └── dashboard.css
+│        └── list_tour.css
+│      ├── user\
+│        └── tour.css
+│        └── user.css
+│      ├── main\
+│        └── index.css
+│        └── login.css
+│        └── signup.css
+├── data\
+│      ├── dataSQL\
+│        └── trave_web.sql
+│      ├── image\
+│        └── m1.jpg
+│        └── m2.jpg
+│      ├── upload\
+│        └── BB_122.css (ảnh tự up lên )
+├── widget\
+│   └── top.php
+│   └── header.php
+│   └── menu.php
+│   └── main.php
+│   └── footer.php
+├── user\
+│   └── review.php
+│   └── dashboard.php
+│   └── mybooking.php
+│   └── tour_detail.php
+│   └── booking.php
+├── images\
+│   └── logoCNTT.jpg
+│   └── logoCNTT.png
+├── skill\
+│   └── chat.php
+│   └── login.php
+│   └── signup.php
+│   └── login.php
+│   └── changepass.php
+│   └── logout.php
+└── js\
+    └── user\
+      ├── AI.js
+        └── chat.js
