@@ -25,7 +25,7 @@ $user = mysqli_fetch_assoc(
     mysqli_query($conn, "SELECT * FROM tb_accounts WHERE id='".$review['user_id']."'")
 );
 ?>
-<link rel="stylesheet" href="../../css/admin/review_detail.css">
+<link rel="stylesheet" href="../../assets/css/admin/review_detail.css">
 <div class="container">
 
     <h2>Chi tiết Review</h2>

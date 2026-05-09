@@ -31,9 +31,9 @@ if(isset($_POST['add'])){
     }
 }
 ?>
-<head><title>Thêm TOUR</title><link rel="stylesheet" href="../../css/admin/add_tour.css"></head>
+<head><title>Thêm TOUR</title><link rel="stylesheet" href="../../assets/css/admin/add_tour.css"></head>
 <body>
-<form method="post" enctype="multipart/form-data" class="form-tour">//ảnh = e
+<form method="post" enctype="multipart/form-data" class="form-tour">
     
     <label>Mã Tour(Số xxxx):</label>
     <input type="text" name="tour_id" required>
@@ -62,7 +62,44 @@ if(isset($_POST['add'])){
 
     <label>Ảnh:</label>
     <input type="file" name="image">
+    <label>Hoặc dán URL ảnh:</label><input type="text" name="image_url"placeholder="https:// ...">
+    <!-- Xem trước ảnh -->
+<div style="margin-top:10px;">
+    <img id="preview"
+         src=""
+         style="max-width:300px;
+                display:none;
+                border-radius:10px;
+                border:1px solid #ccc;">
+</div>
 
     <button type="submit" name="add">Thêm</button>
 
 </form>
+<script>
+const imageUrl = document.getElementById("imageUrl");
+const preview = document.getElementById("preview");
+const imageFile = document.getElementById("imageFile");
+
+// Preview khi nhập URL
+imageUrl.addEventListener("input", function () {
+    const url = this.value.trim();
+
+    if(url !== ""){
+        preview.src = url;
+        preview.style.display = "block";
+    }else{
+        preview.style.display = "none";
+    }
+});
+
+// Preview khi chọn file từ máy
+imageFile.addEventListener("change", function () {
+    const file = this.files[0];
+
+    if(file){
+        preview.src = URL.createObjectURL(file);
+        preview.style.display = "block";
+    }
+});
+</script>
